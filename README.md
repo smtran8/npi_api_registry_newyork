@@ -6,8 +6,6 @@ This project explores healthcare companies in New York state using the CMS NPI R
 
 1. Install dependencies:
 ```bash
-pip install -r requirements.txt
-```
 
 2. Run the main script:
 ```bash
@@ -45,3 +43,5 @@ hospitals = client.search_by_specialty("Hospital", "NY", limit=20)
 # Get specific provider details
 provider = client.get_provider_details("1234567890")
 ```
+## Output Example
+pip install -r requirements.txt<img width="651" height="282" alt="Screenshot 2025-10-05 at 10 19 17 PM" src="https://github.com/user-attachments/assets/68b358d4-d00d-4a8d-9436-242bf06e0ce2" />```
